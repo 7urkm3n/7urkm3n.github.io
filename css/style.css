@@ -1,5 +1,15 @@
 *{
 	margin-top: 5px;
+	/*outline-style: solid;*/
+    /*outline-color: red;*/
+}
+a{
+	color: #fff;
+	background-color: #fff;
+}
+span{
+	text-decoration: underline;
+	/*font-size: 22px;*/
 }
 
 .name{
@@ -7,13 +17,18 @@
 	font-family: "Times New Roman", Times, serif;
 	font-size: 40px;
 }
-
+.left-outer{
+	margin-left: 20px;
+}
+.left-inner{
+	margin-left: 50px;
+}
 .i{
 	margin-left: 10px;
 }
 .i:hover{
 	/*color: #439CEA;*/
-	color: #1574AF;
+	color:#3074AC;
 }
 
 
@@ -27,6 +42,7 @@ img{
 	background-repeat: no-repeat;
 	background-size: 300px 300px;
 	border-radius: 15px;
+	margin-left: 20px;
   	/*max-width: 300px;
   	max-height: 300px;
   	width:40%;
