@@ -1,3 +1,10 @@
+.under_development{
+	color: #3074AC;
+}
+.red{
+	color: #CA3D2A;
+	font-size: 40px;
+}
 *{
 	margin-top: 5px;
 	/*outline-style: solid;*/
@@ -8,7 +15,7 @@ a{
 	background-color: #fff;
 }
 span{
-	text-decoration: underline;
+	/*text-decoration: underline;*/
 	/*font-size: 22px;*/
 }
 
