@@ -84,6 +84,8 @@
   text-decoration: none; }
 .contacts h3, .contacts h4 {
   color: #316299; }
+.contacts p {
+  font-size: 17px; }
 
 .btn .btn-default {
   width: 200px;

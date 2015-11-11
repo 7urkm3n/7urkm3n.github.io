@@ -97,6 +97,10 @@ $secondary-color: #5882BF;
 .contacts{
 	a:hover{text-decoration: none;}
 	h3, h4{color: $primary-color}
+	p{
+		font-size: 17px;
+		
+	}
 }
 .btn .btn-default{
 	width: 200px;
