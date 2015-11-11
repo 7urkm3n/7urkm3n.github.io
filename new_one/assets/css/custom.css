@@ -33,9 +33,6 @@ body {
     background-repeat: no-repeat;
     background-size: 100px 100px;
     background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -83,6 +80,11 @@ body {
 
 .contacts a:hover {
   text-decoration: none; }
+
+.btn .btn-default {
+  width: 200px;
+  height: 60px;
+  padding: 0px; }
 
 .fa {
   color: #316299; }
