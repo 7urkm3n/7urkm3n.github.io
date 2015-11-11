@@ -7,6 +7,7 @@
 //   content: "Errno::ENOENT: No such file or directory @ rb_sysopen - custom.scss"; }
 
 $primary-color: #316299;
+$secondary-color: #5882BF;
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
 @import url('https://fonts.googleapis.com/css?family=Niconne');
 *{
@@ -18,28 +19,30 @@ $primary-color: #316299;
 	vertical-align: baseline;
 	outline: 0px red solid;
 }
-
-body { 
-    // background: url("../image/background.jpeg") no-repeat center center fixed; 
-    // background: url('http://tradewallpaper.com/wp-content/uploads/2015/06/Plain-Backgroun.jpg') no-repeat;
-    // background: #fff;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
 .main{
 	background:#fff;
 	margin: auto;
 	width: auto;
 	height: auto;
 	// margin-top: 25px;
+	a:hover{
+		text-decoration: none;
+	}
 	h1{
 		font: 500 60px/0.5 'Marck Script', cursive;
 		margin: 50px 0px;
 		color: $primary-color;
 	}
+	h2{
+		font: 400 60px/0.5 'Niconne', cursive;
+		margin: 50px 50px;
+		color: $secondary-color;
+		&:hover{
+			color: $primary-color;
+			text-decoration: none;
+		}
+	}
+
 	h3{
 		font: 400 60px/0.5 'Marck Script', cursive;
 		margin: 20px -10px;
@@ -50,10 +53,6 @@ body {
 		background-repeat: no-repeat;
 		background-size: 100px 100px;
 		background-size: cover;
-	    -webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-
 		width: 300px;
 		height: 300px;
 		border-radius: 50%;
@@ -105,14 +104,19 @@ body {
 	}
 }
 .contacts{
-	a:hover{
-		text-decoration: none;
-	}
+	a:hover{text-decoration: none;}
+}
+.btn .btn-default{
+	width: 200px;
+	height: 60px;
+	padding: 0px;
 }
 
-
 .fa{
-	color: $primary-color;
+	color: $secondary-color;
+	a:hover{
+		color: $primary-color;
+	}
 }
 .fa.fa-th-list{
 	margin: 25px 25px;

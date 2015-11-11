@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head>	
+<head>  
     <title> Rovshen Gurdov</title>
     <!-- Meta Part -->
     <meta charset="UTF-8">
@@ -20,7 +20,8 @@
     <div class="col-md-12">
         
         <div class="col-md-3 block">
-            <i class='fa fa-th-list fa-4x' id='contacts'></i>
+            <a href="#"><i class='fa fa-th-list fa-4x' id='contacts'></i></a>
+            
             <div class="contacts align-left">
                 <a href="assets/resume.pdf" target="_blank"><h1>Resume</h1></a>
                 <h4><i>rgurdov@gmail.com</i></h4>
@@ -46,7 +47,13 @@
                     <div class='avatar'></div>
                     <h1>Rovshen Gurdov</h1>
                     <h3>Full Stack Web Developer</h3>
-                    <a href="#"><i class='fa fa-code fa-5x pull-center' id='projects'> </i></a>
+                    
+                    <a href="#" id='projects'><h2> < Projects /> </h2></a>
+   <!--                  <h2> < projects /> </h2>
+                    <h2> { Projects } </h2>
+                    <h2> { projects } </h2> -->
+                    <!-- <h5 class='btn btn-default'> <a href="#"><i class='fa fa-code fa-5x pull-center' id='projects'> </i></a> </h5> -->
+                    
                 </div>
             </div> <!--  end of row -->
     </div>
@@ -64,22 +71,22 @@
                     <div class="thumbnail">
                         <img src="assets/image/project3.png" alt="project1">
                     </div>
-                        <div id='project1' class="info-project text-center">
-                            <h2>Project 1</h2>
-                            <a href="#"> Github</a> | 
-                            <a href="#"> Project</a>
-                        </div>
+                    <div id='project1' class="info-project text-center">
+                        <h2>Project 1</h2>
+                        <a href="#"> Github</a> | 
+                        <a href="#"> Project</a>
+                    </div>
                 </div>
 
                   <div class=" col-md-3" id='2'>
                     <div class="thumbnail">
                         <a href="#"><img src="assets/image/project3.png" alt="project2"></a>
                     </div>
-                        <div id='project2' class="info-project text-center">
-                            <h2>Project 2</h2>
-                            <a href="#"> Github</a> | 
-                            <a href="#"> Project</a>
-                        </div>
+                    <div id='project2' class="info-project text-center">
+                        <h2>Project 2</h2>
+                        <a href="#"> Github</a> | 
+                        <a href="#"> Project</a>
+                    </div>
                   </div>
 
                 <div class="col-md-3" id='3'>
@@ -124,7 +131,7 @@ $(document).ready(function () {
     $('.project').hide();
     $('.info-project').hide();
     $('.contacts').hide();
-    $('.main').css('min-height', $(window).height());
+    // $('.main').css('min-height', $(window).height());
 
     $('#contacts').click(function () {
         $('.contacts').toggle('slow');
