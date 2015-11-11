@@ -18,8 +18,10 @@
 <div class="fixed header"></div>
 <div class="container-fluid">
     <div class="col-md-12">
-        
-        <div class="col-md-3 block">
+
+    <a href="#" class='logo' id='main'> < Rovshen Gurdov /> </a>
+
+        <div class="col-md-2 block">
             <a href="#"><i class='fa fa-th-list fa-4x' id='contacts'></i></a>
             
             <div class="contacts align-left">
@@ -40,22 +42,21 @@
             </div>
         </div>
 
-    
+        <div class="main">
+            <div class="col-md-8 main text-center">
+                <div class='avatar'></div>
+                <h1>Rovshen Gurdov</h1>
+                <h3>Full Stack Web Developer</h3>
+                
+                <a href="#" id='projects'><h2> < Projects /> </h2></a>
+<!--                  <h2> < projects /> </h2>
+                <h2> { Projects } </h2>
+                <h2> { projects } </h2> -->
+                <!-- <h5 class='btn btn-default'> <a href="#"><i class='fa fa-code fa-5x pull-center' id='projects'> </i></a> </h5> -->
+                
+            </div>
+        </div> <!--  end of row -->
 
-            <div class="main">
-                <div class="col-md-6 main text-center">
-                    <div class='avatar'></div>
-                    <h1>Rovshen Gurdov</h1>
-                    <h3>Full Stack Web Developer</h3>
-                    
-                    <a href="#" id='projects'><h2> < Projects /> </h2></a>
-   <!--                  <h2> < projects /> </h2>
-                    <h2> { Projects } </h2>
-                    <h2> { projects } </h2> -->
-                    <!-- <h5 class='btn btn-default'> <a href="#"><i class='fa fa-code fa-5x pull-center' id='projects'> </i></a> </h5> -->
-                    
-                </div>
-            </div> <!--  end of row -->
     </div>
 </div> <!-- Container -->
 
@@ -63,19 +64,17 @@
 
 <div class="container">
     <div class="project">
-        <button class='btn btn-default pull-center' id='main'> INDEX</button>
         <div class="col-md-12">
             <div class="row">
-
                 <div class=" col-md-3" id='1'>
                     <div class="thumbnail">
-                        <img src="assets/image/project3.png" alt="project1">
+                        <img src="assets/image/tmsaas.png" alt="project1">
                     </div>
                     <div id='project1' class="info-project text-center">
                         <h2>Project 1</h2>
-                        <a href="#"> Github</a> | 
-                        <a href="#"> Project</a>
+                        <p><a href="#"> Github</a> | <a href="#"> Project</a></p>
                     </div>
+
                 </div>
 
                   <div class=" col-md-3" id='2'>
@@ -84,8 +83,7 @@
                     </div>
                     <div id='project2' class="info-project text-center">
                         <h2>Project 2</h2>
-                        <a href="#"> Github</a> | 
-                        <a href="#"> Project</a>
+                        <p><a href="#"> Github</a> | <a href="#"> Project</a></p>
                     </div>
                   </div>
 
@@ -95,19 +93,39 @@
                     </div>
                     <div id='project3' class="info-project text-center">
                         <h2>Project 3</h2>
-                        <a href="#"> Github</a> | 
-                        <a href="#"> Project</a>
+                        <p><a href="#"> Github</a> | <a href="#"> Project</a></p>
+                        
+                        
                     </div>
                 </div>
 
                 <div class="col-md-3" id='4'>
                     <div class="thumbnail">
-                        <a href="#"><img src="assets/image/project3.png" alt="project4"></a>
+                        <a href="#"><img src="assets/image/tmchat.png" alt="project4"></a>
                     </div>
                     <div id='project4' class="info-project text-center">
-                            <h2>Project 4</h2>
-                            <a href="#"> Github</a> | 
-                            <a href="#"> Project</a>
+                            <h2>Tm Chat</h2>
+                            <p><a href="#"> Github</a> | <a href="#"> Project</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3" id='5'>
+                    <div class="thumbnail">
+                        <a href="#"><img src="assets/image/tmchat.png" alt="project5"></a>
+                    </div>
+                    <div id='project5' class="info-project text-center">
+                            <h2>Tm Chat</h2>
+                            <p><a href="#"> Github</a> | <a href="#"> Project</a></p>
+                    </div>
+                </div>
+
+                <div class="col-md-3" id='6'>
+                    <div class="thumbnail">
+                        <a href="#"><img src="assets/image/tmchat.png" alt="project6"></a>
+                    </div>
+                    <div id='project6' class="info-project text-center">
+                            <h2>Tm Chat</h2>
+                            <p><a href="#"> Github</a> | <a href="#"> Project</a></p>
                     </div>
                 </div>
 
@@ -130,6 +148,7 @@
 $(document).ready(function () {
     $('.project').hide();
     $('.info-project').hide();
+    $('#main').hide();
     $('.contacts').hide();
     // $('.main').css('min-height', $(window).height());
 
@@ -139,11 +158,14 @@ $(document).ready(function () {
 
     $('#projects').click(function () {
         $('.main').hide(1);
+        $('#contacts').hide(1);
         $('.project').show(1);
+        $('#main').show(1);
     })
 
     $("#main").click(function() {
         $('.project').hide(1);
+        $('#main').hide(1);
         $('.main').show(1);
     })
 

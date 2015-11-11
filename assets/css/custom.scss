@@ -36,11 +36,8 @@ $secondary-color: #5882BF;
 	h2{
 		font: 400 60px/0.5 'Niconne', cursive;
 		margin: 50px 50px;
-		color: $secondary-color;
-		&:hover{
-			color: $primary-color;
-			text-decoration: none;
-		}
+		color: #507CB7;
+		&:hover{color: $primary-color;}
 	}
 
 	h3{
@@ -83,11 +80,12 @@ $secondary-color: #5882BF;
 .thumbnail{
 	width:250px;
 	height:250px;
-	border: 0px !important;
+	border: 1px solid $secondary-color !important;
+	border-radius: 50px;
 	img{
 		width: 250px;
 		height: 250px;
-		border-radius: 30px;
+		border-radius: 20px;
 	}	
 }
 .info-project{
@@ -97,11 +95,16 @@ $secondary-color: #5882BF;
 	height: 85px;
 	background: $primary-color;
 	position: relative;
-	border-radius: 0 0 0 30px;
+	border-radius: 0 0 15px 15px;
 	h2{
 		padding-top: 5px;
 		color: #fff;
 	}
+	p{
+		font-size: 16px;
+		a{color: #fff}
+	}
+	
 }
 .contacts{
 	a:hover{text-decoration: none;}
@@ -114,11 +117,29 @@ $secondary-color: #5882BF;
 
 .fa{
 	color: $secondary-color;
-	a:hover{
-		color: $primary-color;
-	}
+	&:hover{color:$primary-color ;}
 }
 .fa.fa-th-list{
 	margin: 25px 25px;
 }
 
+.col-md-3:nth-child(4n+1){
+	clear: left;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+// .secondary{
+// 	margin-top: 10px;
+// }
+
+.logo{
+	font: 400 60px/0.5 'Niconne', cursive;
+	margin-left: 15%;
+	margin-top: 35px;
+	margin: 35px 0 35px 15%;	
+	color: #507CB7;
+	&:hover{
+		color: $primary-color;
+		text-decoration: none;
+	}
+}
