@@ -82,6 +82,8 @@
 
 .contacts a:hover {
   text-decoration: none; }
+.contacts h3, .contacts h4 {
+  color: #316299; }
 
 .btn .btn-default {
   width: 200px;

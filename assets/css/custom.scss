@@ -1,3 +1,4 @@
+// sass --watch custom.scss:custom.css
 $primary-color: #316299;
 $secondary-color: #5882BF;
 @import url('https://fonts.googleapis.com/css?family=Marck+Script');
@@ -95,6 +96,7 @@ $secondary-color: #5882BF;
 }
 .contacts{
 	a:hover{text-decoration: none;}
+	h3, h4{color: $primary-color}
 }
 .btn .btn-default{
 	width: 200px;
