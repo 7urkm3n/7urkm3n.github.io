@@ -30,5 +30,6 @@ $(document).ready(function () {
     }, function() {
         $('.info-project').hide();
     });
-
+    
+    $('div.thumbnail > a, div.info-project > p > a').attr('target', "_blank");
 })
