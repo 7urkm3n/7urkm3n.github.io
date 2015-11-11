@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     $('#projects').click(function () {
         $('.main').hide('slow');
-        $('#contacts').hide('slow');
+        $('#contacts, .contacts').hide('slow');
         $('.project').show('slow');
         $('#main').show('slow');
     })
