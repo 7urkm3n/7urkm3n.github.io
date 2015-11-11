@@ -1,17 +1,17 @@
 $(document).ready(function () {
     $('body').css('min-height', $(window).height());
-    $('.project').hide();
-    $('.info-project').hide();
-    $('#main').hide();
-    $('.contacts').hide();
+    var ph = $('.project').hide();
+    var ip = $('.info-project').hide();
+    var mn = $('#main').hide();
+    var ct = $('.contacts').hide();
 
     $('#contacts').click(function () {
         $('.contacts').toggle('slow');
     });
 
     $('#projects').click(function () {
-        $('.main').hide('slow');
         $('#contacts, .contacts').hide('slow');
+        $('.main').hide('slow');
         $('.project').show('slow');
         $('#main').show('slow');
     })
