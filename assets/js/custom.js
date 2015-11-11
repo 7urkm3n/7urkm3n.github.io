@@ -10,17 +10,17 @@ $(document).ready(function () {
     });
 
     $('#projects').click(function () {
-        $('.main').hide(1);
-        $('#contacts').hide(1);
-        $('.project').show(1);
-        $('#main').show(1);
+        $('.main').hide('slow');
+        $('#contacts').hide('slow');
+        $('.project').show('slow');
+        $('#main').show('slow');
     })
 
     $("#main").click(function() {
-        $('.project').hide(1);
-        $('#main').hide(1);
-        $('.main').show(1);
-        $('#contacts').show(1);
+        $('.project').hide('slow');
+        $('#main').hide('slow');
+        $('.main').show('slow');
+        $('#contacts').show('slow');
     })
 
     $('.col-md-3').hover(function() {
