@@ -9,21 +9,24 @@
   vertical-align: baseline;
   outline: 0px red solid; }
 
-body {
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover; }
-
 .main {
   background: #fff;
   margin: auto;
   width: auto;
   height: auto; }
+  .main a:hover {
+    text-decoration: none; }
   .main h1 {
     font: 500 60px/0.5 'Marck Script', cursive;
     margin: 50px 0px;
     color: #316299; }
+  .main h2 {
+    font: 400 60px/0.5 'Niconne', cursive;
+    margin: 50px 50px;
+    color: #5882BF; }
+    .main h2:hover {
+      color: #316299;
+      text-decoration: none; }
   .main h3 {
     font: 400 60px/0.5 'Marck Script', cursive;
     margin: 20px -10px;
@@ -87,7 +90,9 @@ body {
   padding: 0px; }
 
 .fa {
-  color: #316299; }
+  color: #5882BF; }
+  .fa a:hover {
+    color: #316299; }
 
 .fa.fa-th-list {
   margin: 25px 25px; }
