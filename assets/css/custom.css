@@ -28,7 +28,7 @@
       color: #316299; }
   .main h3 {
     font: 400 60px/0.5 'Marck Script', cursive;
-    margin: 20px -10px;
+    margin: 20px -100px;
     color: #316299; }
   .main .avatar {
     background-image: url("../image/avatar.jpg");
@@ -110,5 +110,10 @@
   .logo:hover {
     color: #316299;
     text-decoration: none; }
+
+.development {
+  color: red;
+  font-size: 25px;
+  font-style: oblique; }
 
 /*# sourceMappingURL=custom.css.map */
