@@ -56,3 +56,7 @@ section.success a:hover{
 	font-family: 'IM Fell Double Pica', serif;
 	/*font-style: italic;*/
 }
+
+.btn-social.btn-outline:hover {
+	color: #316299;
+}
