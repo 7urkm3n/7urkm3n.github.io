@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Marck+Script");
+@import url("https://fonts.googleapis.com/css?family=Niconne");
+@import url("https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica:400,400italic");
+
+h2{
+    color: #507CB7;
+}
+
+header{
+	background: #FFF; color: #507CB7; margin-top: -100px;
+}
+
+section hr{
+	border: 1px solid #507CB7; width: 50%;
+}
+
+section.success{
+	background: #316299;
+}
+
+section.success a{
+	color: #fff;
+}
+
+section.success a:hover{
+	color: #316299;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption {
+	background: #316299;
+}
+
+#portfolio .portfolio-item .portfolio-link .caption:hover {
+	opacity: 0.9;
+}
+
+.portfolio-modal .modal-content h2 {
+	margin-bottom: 30px;
+}
+
+.modal-body button{
+	font-size: 20px;
+	width: 200px;
+	height: 55px;
+	background: #316299;
+	border: 0px;
+}
+
+.modal-body button:hover {
+	background: white;
+	color: #316299;
+	border: 1px solid #316299;
+}
+
+#test{
+	font-family: 'IM Fell Double Pica', serif;
+	/*font-style: italic;*/
+}
