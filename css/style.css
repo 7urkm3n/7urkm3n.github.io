@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Marck+Script");
-@import url("https://fonts.googleapis.com/css?family=Niconne");
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+Double+Pica:400,400italic");
 
 h2{
@@ -58,5 +56,13 @@ section.success a:hover{
 }
 
 .btn-social.btn-outline:hover {
+	color: #316299;
+}
+
+#gotoPortfolio{
+	margin-top: 30px;
+}
+
+#gotoPortfolio:hover{
 	color: #316299;
 }
